@@ -120,19 +120,6 @@ The `digital_logic/verilog` folder contains a synthesizable combinational contro
 
 ---
 
-## ☁️ Upload to GitHub
-
-```bash
-git init
-git add .
-git commit -m "IoT home automation: ESP32 + digital logic + MQTT/BLE/WebUI"
-git branch -M main
-git remote add origin https://github.com/<your-username>/iot-home-automation-digital-logic.git
-git push -u origin main
-```
-
----
-
 ## 📜 License
 
-MIT — see `LICENSE`.
+Author: Sayan Dewri
