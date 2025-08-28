@@ -1,0 +1,14 @@
+
+name: ci
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Verilog presence
+        run: |
+          test -f digital_logic/verilog/controller.v
+          test -f digital_logic/verilog/tb_controller.v
+      - name: Check README
+        run: test -f README.md

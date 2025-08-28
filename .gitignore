@@ -1,0 +1,22 @@
+
+# Arduino / ESP32
+.build/
+*.bin
+*.elf
+*.map
+*.eep
+*.hex
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# PlatformIO
+.pio/
